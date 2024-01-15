@@ -1,0 +1,7 @@
+package FifteenGame;
+
+class FifteenModel implements Boardgame {
+	  // Implementera Boardgame-metoderna
+	  // Deklarera variabler och övriga metoder som ni
+	  // tycker behövs för ett femtonspel
+	}

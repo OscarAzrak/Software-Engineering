@@ -1,0 +1,10 @@
+package FifteenGame;
+
+public class Fifteen implements Boardgame {
+    // Implementera GameTools.Boardgame-metoderna
+    // Deklarera variabler och övriga metoder som ni
+    // tycker behövs för ett femtonspel
+	  private String currentMessage = "No message yet";
+	  private String[][] board = new String[4][4];   // spelplanen
+	  private int iemp, jemp;    
+}

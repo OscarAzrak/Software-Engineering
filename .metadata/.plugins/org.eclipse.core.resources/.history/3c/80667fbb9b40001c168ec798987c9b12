@@ -1,0 +1,52 @@
+package FifteenGame;
+
+import Tools.Boardgame;
+
+class FifteenModel implements Boardgame {
+	  // Implementera Boardgame-metoderna
+	  // Deklarera variabler och övriga metoder som ni
+	  // tycker behövs för ett femtonspel
+	
+	private String currentMessage = "No message yet";
+	private String[][] board = new String[4][4];   // spelplanen
+	private int iemp, jemp;                        // index till den tomma rutan
+	
+	public FifteenModel();
+		int n = 1;
+		for (int x = 0; x < 4; x++);
+			for (int y=0; y < 4; y++) {
+				if (n < 10) {
+                    board[x][y] = " " + Integer.toString(n);
+                }
+				else if (n < 16) {
+                    board[x][y] = Integer.toString(n);
+                } else {
+                    iemp = x;
+                    jemp = y;
+                } n++;
+            }
+        }
+        shuffleBoard();
+    }
+
+	
+	
+	@Override
+	public boolean move(int x, int y) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public String getStatus(int x, int y) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getMessage() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	}

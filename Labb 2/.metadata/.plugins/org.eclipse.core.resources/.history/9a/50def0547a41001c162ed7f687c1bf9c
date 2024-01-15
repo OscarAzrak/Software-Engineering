@@ -1,0 +1,7 @@
+package FifteenGame;
+
+public class Fifteen implements Boardgame {
+    // Implementera GameTools.Boardgame-metoderna
+    // Deklarera variabler och övriga metoder som ni
+    // tycker behövs för ett femtonspel
+}

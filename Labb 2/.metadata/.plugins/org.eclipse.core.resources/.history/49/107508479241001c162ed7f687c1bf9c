@@ -1,0 +1,36 @@
+package FifteenGame;
+
+import java.util.Arrays;
+
+import Tools.Boardgame;
+
+public class Fifteen implements Boardgame {
+    // Implementera GameTools.Boardgame-metoderna
+    // Deklarera variabler och övriga metoder som ni
+    // tycker behövs för ett femtonspel
+	  private String currentMessage = "No message yet";
+	  private String[][] board = new String[4][4];   // spelplanen
+	  private int iemp, jemp;  
+	  
+	  
+	  public Fifteen() {
+	        int n = 1;
+	        for (int x=0; x < 4; x++) {
+	            for (int y=0; y < 4; y++) {
+	            	board[x][y] =Integer.toString(n);
+	                }
+	                
+	                } /*else {
+	                    iemp = x;
+	                    jemp = y;*/
+	                n++;
+	  }
+	  System.out.println(Arrays.deepToString(deepArray));
+
+}
+
+
+
+	       //shuffleBoard();
+	    
+
